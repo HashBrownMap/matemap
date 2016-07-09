@@ -3402,6 +3402,11 @@
 					margin: 0.5em 0 0 0;
 					top: 0;
 				}
+				#banner .content img {
+					padding-top: 1.5em;
+					padding-right: .5em;
+				}
+				
 
 			#banner .content .image {
 				border-radius: 100%;
