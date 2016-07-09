@@ -2965,7 +2965,7 @@
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(255, 228, 82, 0.95);
+			background: rgba(252, 181, 33, 0.95);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3025,8 +3025,8 @@
 		}
 
 		.spotlight.style2 .content {
-			border-color: #E17F10;
-			background: rgba(252, 181, 33, 0.95);
+			border-color: rgba(252, 181, 33, 0.95);
+			background: rgba(225, 127, 16, 0.95);
 		}
 
 		.spotlight.style3 .content {
@@ -3563,7 +3563,7 @@
 				}
 
 				.spotlight .content {
-					background-color: #1c1d26;
+					background-color: rgba(252, 181, 33, 0.95);
 					border-width: 0 !important;
 					border-top-width: 0.35em !important;
 					bottom: auto !important;
@@ -3746,7 +3746,7 @@
 				padding-bottom: 1px;
 				padding-top: 44px !important;
 			}
-
+/*
 			#titleBar {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -3908,7 +3908,7 @@
 				-webkit-transform: translateX(0);
 				-ms-transform: translateX(0);
 				transform: translateX(0);
-			}
+			}*/
 
 		/* Footer */
 
