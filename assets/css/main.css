@@ -3037,6 +3037,7 @@
 		.spotlight.inactive .content {
 			opacity: 0;
 		}
+		
 
 		.spotlight.inactive .goto-next {
 			-moz-transform: translate(0,1.5em);
