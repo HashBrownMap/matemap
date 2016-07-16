@@ -2496,6 +2496,7 @@
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
+		
 
 			.image.fit img {
 				width: 100%;
@@ -2965,7 +2966,7 @@
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(252, 181, 33, 0.95);
+			background: rgba(252, 181, 33, 0.93);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3023,15 +3024,19 @@
 		.spotlight.style1 .content {
 			border-color: #FCB521;
 		}
+		.spotlight.style1 img{
+			position: absolute;
+			top: -80px;
+		}
 
 		.spotlight.style2 .content {
 			border-color: rgba(252, 181, 33, 0.95);
-			background: rgba(225, 127, 16, 0.95);
+			background: rgba(225, 127, 16, 0.90);
 		}
 
 		.spotlight.style3 .content {
 			border-color: #B92669;
-			background: rgba(225, 127, 16, 0.95);
+			background: rgba(225, 127, 16, 0.90);
 		}
 
 		.spotlight.inactive .content {
