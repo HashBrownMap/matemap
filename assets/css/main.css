@@ -2952,7 +2952,7 @@
 		}
 
 		.spotlight:before {
-			background-image: url("images/overlay.png");
+			background-image: url("images/confetti.png");
 			content: '';
 			display: block;
 			height: 100%;
@@ -3375,9 +3375,19 @@
     -moz-transform: translateX(-50%) translateY(-50%);
     -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
-    background: url(polina.jpg) no-repeat;
+    background-image: url("../../images/beach.jpg") no-repeat;
     background-size: cover; 
 	
+}
+
+
+@media screen and (max-device-width: 800px) {
+    #banner {
+         background: url("../../images/beach.jpg") #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
 }
 
 		#banner:before {
@@ -3416,6 +3426,7 @@
 			#banner .content header {
 				display: inline-block;
 				vertical-align: middle;
+				text-align: center;
 			}
 
 				#banner .content header h2 {
