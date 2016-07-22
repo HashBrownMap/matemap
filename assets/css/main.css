@@ -3388,6 +3388,9 @@
     #bgvid {
         display: none;
     }
+	#one img{
+		display: none;
+	}
 }
 
 		#banner:before {
