@@ -1572,7 +1572,7 @@
 	}
 
 	body, input, select, textarea {
-		color: rgba(255, 255, 255, 0.75);
+		color: rgba(255, 255, 255, .95);
 		font-family: "Roboto", Helvetica, sans-serif;
 		font-size: 15pt;
 		font-weight: 100;
@@ -3424,6 +3424,7 @@
 			text-align: left;
 			vertical-align: middle;
 			z-index: 1;
+			color:rgba(255, 255, 255, 0.75)
 		}
 
 			#banner .content header {
@@ -3474,6 +3475,18 @@
 	body.is-touch #banner {
 		background-attachment: scroll;
 	}
+
+	svg {
+  position: fixed;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  max-width: 580px;
+  max-height: 740px;
+}
 
 /* Footer */
 
